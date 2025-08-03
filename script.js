@@ -22,7 +22,7 @@ btnelement.addEventListener("click", async function () {
             imageelement.style.display = "block";
             animeNameElement.textContent = Math.random().toString(36).substring(7); 
             btnelement.disabled = false;
-            btnelement.textContent = "Generate Another Picture";
+            btnelement.textContent = "Get Another Picture ";
         };
     } catch (error) {
         console.error("Error fetching data:", error);
