@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #c2e9fb, #f9f9f9, #fddb92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+    border-right: 8px solid #f9d923;
+    border-left: 8px solid #63cdda;
+    cursor: pointer;
+
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+
+button#generateButton {
+    padding: 10px 20px;
+    background-color: #219653;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#generateButton:hover {
+    background-color: #1e874b;
+}
+
+.anime-container {
+    margin-top: 25px;
+}
+
+.anime-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #007f5f;
+}
+
+.anime-name {
+    margin-top: 20px;
+    background-color: #006400;
+    color: white;
+    padding: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: monospace;
+    text-transform: lowercase;
+}
+
+
+.anime-container{
+    display: none;;
+}
